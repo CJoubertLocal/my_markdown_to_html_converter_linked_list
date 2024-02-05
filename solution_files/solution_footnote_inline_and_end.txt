@@ -1,0 +1,8 @@
+Throwaway line
+<p>
+This paragraph references a footnote.<a id="footnote-anchor-1" href="#footnote-1">[1]</a>
+</p>
+<p id="footnote-1">
+<a href="#footnote-anchor-1">[1]</a>
+ This is the reference.
+</p>

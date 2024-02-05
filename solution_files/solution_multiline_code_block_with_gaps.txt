@@ -1,0 +1,7 @@
+<code>
+This is a line.
+
+Here is another line. It should not be in paragraph tags.
+
+A final line.
+</code>

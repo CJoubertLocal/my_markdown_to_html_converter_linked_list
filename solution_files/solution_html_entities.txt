@@ -1,0 +1,1 @@
+This is a file &apos; which is &lt;filled&gt; with &ndash; HTML &quot;entities&quot; of interest.

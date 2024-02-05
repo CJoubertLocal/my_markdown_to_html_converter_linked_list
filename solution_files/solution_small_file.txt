@@ -1,0 +1,65 @@
+<h1>
+ Introduction
+</h1>
+<p>
+<h2>
+ A Small File
+</h2>
+</p>
+<p>
+This is a <i>small</i> file. It contains &ndash; neigh &ndash; requires the program to correctly translate a variety of different Obsidian Markdown elements into the HTML elements I want.
+</p>
+<p>
+For example, paragraphs<a id="footnote-anchor-1" href="#footnote-1">[1]</a>, that &quot;0 &lt; 1&quot; and &quot;2 &gt; 1&quot;, <b>and</b> <i><b>headings</b></i>. <code>Code blocks</code>, such as the below should also be interpreted correctly.
+</p>
+<p>
+<code>
+fn removeCharacterFromList(remList list, charToRemove char) list {
+    match remList {
+        case x::[]:
+            match x {
+                charToRemove: []
+                _: x
+            }
+        case x::xs:
+            match x {
+                charToRemove: removeCharacterFromList(xs, charToRemove)
+                _: x::removeCharacterFromList(xs, charToRemove)
+            }
+    }
+}
+
+removeCharacterFromList([&apos;a&apos;, &apos;b&apos;, &apos;c&apos;], &apos;a&apos;)<a id="footnote-anchor-2" href="#footnote-2">[2]</a>
+</code>
+</p>
+<p>
+<h2>
+ A table conclusion
+</h2>
+</p>
+<p>
+<table class="table table-hover">
+<thead>
+<tr>
+<th scope="col"> A table </th>
+<th scope="col"> must have </th>
+<th scope="col"> columns </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td> and rows. </td>
+<td> which may have an arbitrary amount of content </td>
+<td> </td>
+</tr>
+</tbody>
+</table>
+</p>
+<p id="footnote-1">
+<a href="#footnote-anchor-1">[1]</a>
+ With footnotes!
+</p>
+<p id="footnote-2">
+<a href="#footnote-anchor-2">[2]</a>
+ Pseudocode.
+</p>

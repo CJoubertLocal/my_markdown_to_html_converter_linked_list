@@ -1,0 +1,1 @@
+This is some text surrounding <code>and inline code block</code>.

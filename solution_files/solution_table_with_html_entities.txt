@@ -1,0 +1,18 @@
+<table class="table table-hover">
+<thead>
+<tr>
+<th scope="col"> col name one </th>
+<th scope="col"> col name two </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td> A non&ndash;entity / </td>
+<td> Some entities &ndash; &apos; </td>
+</tr>
+<tr>
+<td> &lt; More entities &gt; </td>
+<td> &quot;And I quote...&quot; </td>
+</tr>
+</tbody>
+</table>

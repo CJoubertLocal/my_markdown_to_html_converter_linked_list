@@ -1,0 +1,4 @@
+| col name one | col name two |
+|-|-|
+| first row contents one[^1] | first row[^2] contents two |
+| second row contents[^3] one | second row contents two[^4] |

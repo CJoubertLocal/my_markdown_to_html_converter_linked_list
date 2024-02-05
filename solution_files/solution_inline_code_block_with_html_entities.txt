@@ -1,0 +1,1 @@
+This file contains <code>a code block</code> with <code>a number of &apos; &lt;&gt; &ndash; &quot; </code> html entities in it.

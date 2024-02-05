@@ -1,0 +1,14 @@
+<table class="table table-hover">
+<thead>
+<tr>
+<th scope="col"> col name one </th>
+<th scope="col"> col name two </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td> row contents one </td>
+<td> row contents two </td>
+</tr>
+</tbody>
+</table>

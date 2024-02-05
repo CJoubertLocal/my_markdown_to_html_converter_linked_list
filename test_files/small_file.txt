@@ -1,0 +1,35 @@
+# Introduction
+
+## A Small File
+
+This is a *small* file. It contains - neigh - requires the program to correctly translate a variety of different Obsidian Markdown elements into the HTML elements I want.
+
+For example, paragraphs[^1], that "0 < 1" and "2 > 1", **and** ***headings***. `Code blocks`, such as the below should also be interpreted correctly.
+
+```Pseudocode
+fn removeCharacterFromList(remList list, charToRemove char) list {
+    match remList {
+        case x::[]:
+            match x {
+                charToRemove: []
+                _: x
+            }
+        case x::xs:
+            match x {
+                charToRemove: removeCharacterFromList(xs, charToRemove)
+                _: x::removeCharacterFromList(xs, charToRemove)
+            }
+    }
+}
+
+removeCharacterFromList(['a', 'b', 'c'], 'a')
+```[^2]
+
+## A table conclusion
+
+| A table | must have | columns |
+|--|--|--|
+| and rows. | which may have an arbitrary amount of content | |
+
+[^1]: With footnotes!
+[^2]: Pseudocode.

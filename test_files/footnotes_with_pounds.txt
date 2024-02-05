@@ -1,0 +1,5 @@
+Throwaway line
+
+This paragraph references a footnote.[^1]
+
+[^1]: This is the reference, it has a url: https://this-is-not-a-real-url.blue/database?query=#a-query.

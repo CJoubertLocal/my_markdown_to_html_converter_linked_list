@@ -1,0 +1,31 @@
+<code>
+import * as echarts from &apos;echarts&apos;;
+
+# This should not be turned into a header.
+
+var chartDom = document.getElementById(&apos;main&apos;);
+var myChart = echarts.init(chartDom);
+var option;
+
+option = {
+  xAxis: {
+    type: &apos;category&apos;,
+    data: [&apos;Mon&apos;, &apos;Tue&apos;, &apos;Wed&apos;, &apos;Thu&apos;, &apos;Fri&apos;, &apos;Sat&apos;, &apos;Sun&apos;]
+  },
+  yAxis: {
+    type: &apos;value&apos;
+  },
+  series: [
+    {
+      data: [150, 230, 224, 218, 135, 147, 260],
+      type: &apos;line&apos;
+    },
+    {
+      data: [100, 30, 24, 18, null, 35, 240],
+      type: &apos;line&apos;
+    } // Second series added to code from line&ndash;simple chart.
+  ]
+};
+
+option && myChart.setOption(option);
+</code>

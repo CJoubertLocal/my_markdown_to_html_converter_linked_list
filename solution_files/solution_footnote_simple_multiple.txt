@@ -1,0 +1,4 @@
+<h1> This is a heading</h1>
+<p>
+Here is a footnote.<a id="footnote-anchor-1" href="#footnote-1">[1]</a> Here&apos;s another.<a id="footnote-anchor-2" href="#footnote-2">[2]</a>
+</p>
